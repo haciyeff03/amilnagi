@@ -1,0 +1,178 @@
+#logo {
+    font-size: 1.5em;
+    font-family: 'Audiowide';
+}
+
+.nav-hover:hover::after {
+    /* border-bottom: 2px solid #000; */
+    width: 100%;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-hover::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: .4s ease-in-out;
+}
+
+.bg-gray {
+    background: #666;
+}
+
+.bg-slider {
+    background-color: #bac3d6;
+}
+
+.slider-div {
+    background-color: #bac3d6;
+    height: 55vh;
+}
+
+.slider-img {
+    max-width: 400px;
+    max-height: 200px;
+}
+@media (max-width:400px) {
+    .slider_img {
+        
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.slider-text {
+    max-width: 400px;
+    padding: 50px;
+}
+
+.slider-text h2 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.nav-line {
+    border-bottom: 2px solid #000;
+}
+
+.solution-img {
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+
+}
+
+.solution-text {
+    max-width: 600px;
+}
+
+.solution-text h2 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.focus-h2 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.focus-h3 {
+    font-size: 1.2em;
+}
+
+.bg-footer {
+    background: #232465;
+}
+
+.slider-text {
+    margin-left: 50px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#nagiamil {
+    margin-top: 80px;
+}
+
+.slider-p {
+    line-height: 25px;
+    font-weight: bold;
+
+}
+ @media (max-width:400px) {
+        .slider-p {
+            line-height: normal;
+            font-size: 10px;
+        }
+        
+}
+
+#yuzplus {
+    font-size: 40px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+#soltext {
+    line-height: 23px;
+    font-size: 20px;
+}
+
+.border-top button {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+
+    color: #686777;
+    font-size: 13px;
+    position: relative;
+    transition: .2s ease-in-out;
+}
+
+.border-top button i {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 14px;
+    left: 13px;
+}
+
+.border-top button .f_1 {
+    transition: .1s ease-in-out;
+}
+
+.border-top button .f_2 {
+    transform: translateX(30px);
+    animation: none;
+    transition: .3s ease-in-out;
+}
+
+.border-top button:hover {
+    background-color: #4042b1;
+}
+
+.border-top button:hover .f_1 {
+    transform: translateX(-50px);
+    color: #7B23DE;
+}
+
+.border-top button:hover .f_2 {
+    transform: translateX(0);
+    color: white;
+}
